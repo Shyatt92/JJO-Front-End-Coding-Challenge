@@ -1,0 +1,58 @@
+body {
+  background-image: url('./images/hero-image.png');
+  background-repeat: no-repeat;
+  background-size: auto 28.125vw;
+}
+header {
+  width: 90vw;
+  margin: 0 auto;
+  height: 28.125vw;
+}
+.logo {
+  font-size: 2em !important;
+}
+.w-90 {
+  width: 90vw;
+}
+.h-90px {
+  height: 90px !important;
+}
+.w-90px {
+  width: 90px !important;
+}
+.h-50px {
+  height: 50px !important;
+}
+.w-50px {
+  width: 50px !important;
+}
+.w-530px {
+  width: 530px !important;
+}
+.w-35 {
+  width: 35% !important;
+}
+.sidescroller {
+  display: flex;
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+}
+.scroll-item {
+  flex: 0 0 auto;
+}
+.newsletter-sub {
+  background-color: #000000;
+  background-image: url('./images/Newsletter-image.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 325px;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-size: auto 350px;
+    background-position: top center;
+  }
+  header {
+    height: 350px;
+  }
+}
